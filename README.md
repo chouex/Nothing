@@ -1,7 +1,17 @@
-# Disable FLAG_SECURE
-Disable `FLAG_SECURE` on all windows, enabling screenshots in apps that normally wouldn\'t allow it, and disabling screenshot detection on Android 14+.
+# An Lsposed api example
 
-## Usage
-1. Enable the module
-2. Select **ONLY** recommended apps
-3. Reboot
+This module does nothing.
+
+This is a template for new Lsposed module.
+
+## How to Build io.github.libxposed:api:100
+
+```
+git clone --depth 1 https://github.com/libxposed/api.git libxposed/api
+git clone --depth 1 https://github.com/libxposed/service.git libxposed/service
+
+cd libxposed/api
+./gradlew :api:publishApiPublicationToMavenLocal
+cd ../service
+./gradlew :interface:publishInterfacePublicationToMavenLocal
+```

@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">Disable FLAG_SECURE</string>
-    <string name="xposed_description">Disable FLAG_SECURE on all windows, enabling screenshots in apps that normally wouldn\'t allow it.</string>
+    <string name="app_name">Nothing</string>
+    <string name="xposed_description">This module does nothing.</string>
 </resources>
